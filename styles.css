@@ -694,6 +694,15 @@
       margin: 0 auto;
     }
 
+    .extra-showcase-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      max-width: 1300px;
+      margin: 24px auto 0;
+      padding: 0 24px;
+    }
+
     .spec-card {
       position: relative;
       overflow: hidden;
@@ -1034,6 +1043,10 @@
         grid-template-columns: 1fr;
       }
 
+      .extra-showcase-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
       #contact {
         grid-template-columns: 1fr;
         padding: 80px 24px;
@@ -1056,6 +1069,10 @@
         width: 100%;
         grid-template-columns: 1fr;
         gap: 1px;
+      }
+
+      .extra-showcase-grid {
+        grid-template-columns: 1fr;
       }
 
       .client-cell {
